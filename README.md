@@ -1,4 +1,4 @@
-# lisa-webadmin application
+# LISA Webadmin application
 
 Lisa-webadmin is an open source single-page applications (SPA) build with [Vue.js](https://vuejs.org) and [Vuetify](https://vuetifyjs.com) components, to allow configuration of [LISA - Interaktive Auskunft für die Smart City](https://geocom.ch/de-ch/search?q=lisa) using a responsive web design.
 It provides the functionality to edit tables in an ArcGIS Online or Portal for ArcGIS secure meb map, where the lisa configuration is stored.
@@ -44,10 +44,11 @@ For more information please contact: support@geocom.ch
 ------
 ## Help
 
-The application expects a secure web map id and the client id of the application. 
+The application expects a secure web map id and the client id of registered ArcGIS Online application. The redirect-url must match with the domain used to run the LISA Webadmin (e.g. https://geocom.ch/lisawebadmin).
 > Client id can be obtained by registering an application in [ArcGIS Online](http://doc.arcgis.com/en/arcgis-online/share-maps/add-items.htm#ESRI_SECTION1_0D1B620254F745AE84F394289F8AF44B)
 
 If the provided client id is not valid, an "invalid client_id error 400" is returned from the OAUth2 service.
+
 
 If the provided client id and secure web map id are valid, the user will be redirected to the Esri OAuth service.
 ![](https://github.com/geocom-gis/lisa-webadmin/blob/master/lisa-esri-oauth2.png)
