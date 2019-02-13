@@ -1,6 +1,6 @@
 # LISA Webadmin application
 
-Lisa-webadmin is an open source single-page applications (SPA) build with [Vue.js](https://vuejs.org) and [Vuetify](https://vuetifyjs.com) components, to allow configuration of [LISA - Interaktive Auskunft für die Smart City](https://geocom.ch/de-ch/search?q=lisa) using a responsive web design.
+Lisa-webadmin is an open source single-page applications (SPA) build with [Vue.js](https://vuejs.org) and [Vuetify](https://vuetifyjs.com) components, to allow configuration of [LISA – Interactive Information for a Smart City](https://geocom.ch/lisa) using a responsive web design.
 It provides the functionality to edit tables in an ArcGIS Online or Portal for ArcGIS secure meb map, where the lisa configuration is stored.
 
 > It may be used as a custom-widget to edit tables in the Web AppBuilder, since the edit tables functionality is (still) not support.
